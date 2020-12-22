@@ -1,0 +1,15 @@
+[package]
+name = "yc"
+version = "0.1.0"
+authors = ["Zee Yang <zee.yang@gmail.com>"]
+edition = "2018"
+
+[lib]
+name = "yrs"
+crate-type = ["staticlib"]
+
+[dependencies]
+yrs = "^0.0.1"
+
+[build-dependencies]
+cbindgen = "^0.14"
